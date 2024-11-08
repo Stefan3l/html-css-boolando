@@ -34,12 +34,16 @@
     max-width: 100%;
 }
 
+
 /*-------------
     Header
 --------------*/ 
 
+
 header {
     background-color: #ff6900;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -111,7 +115,11 @@ header i:not(last-child) {
     padding: 2px;
 }
 
-h4 h5 {
+h4 {
+    font-size: 10px;
+}
+
+h5 {
     font-size: 10px;
 }
 
