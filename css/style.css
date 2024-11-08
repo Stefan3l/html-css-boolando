@@ -88,3 +88,38 @@ header i:not(last-child) {
     background-color: #fff;
     padding: 5px;
 }
+
+.discount {
+    position: absolute;
+    top: 78%;
+    display: flex;
+    color: #fff;
+    max-width: 100%;
+    min-height: 5%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.discount-red {
+    background-color: red;
+    margin-right: 5px;
+    padding: 2px;
+}
+
+.discount-green {
+    background-color: #008000;
+    padding: 2px;
+}
+
+h4 h5 {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 12px;
+}
+
+mark {
+    background-color: transparent;
+    color: red;
+}
