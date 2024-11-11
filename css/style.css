@@ -34,6 +34,22 @@
     max-width: 100%;
 }
 
+.img-default {
+    display: block;
+}
+
+.img-hover {
+    display: none;
+}
+
+.col:hover > .img-default {
+    display: none;
+}
+
+.col:hover > .img-hover {
+    display: block;
+}
+
 .container-footer {
     max-width: 900px;
     margin-left: auto;
